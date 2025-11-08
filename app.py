@@ -117,7 +117,7 @@ def calcular_mezcla(inputs):
 # ======================================================================
 # 5) UI STREAMLIT
 # ======================================================================
-header("🚀 Calculadora de PCI (RDF)", "H.Vladimir M: hadervm@gmail.com Retirar SAS ESP Unidad I+D+i")
+header("🚀 Calculadora de PCI (RDF)")
 
 with st.sidebar:
     st.header("⚙️ Parámetros de Entrada")
@@ -223,10 +223,15 @@ if st.button("⚡ Calcular PCI", type="primary", use_container_width=True):
 st.markdown("---")
 st.markdown(
     """
-    <div style="text-align: center; color: #7F8C8D;">
-        <p>© 2025 RETIRAR SAS ESP CDR |
-        <a href="#" style="color: #2980B9; text-decoration: none;">Políticas de Privacidad</a> |
-        <a href="#" style="color: #2980B9; text-decoration: none;">Soporte Técnico</a></p>
+    <div style="text-align: center; color: #7F8C8D; font-size: 14px;">
+        <p>© 2025 RETIRAR SAS ESP · Unidad I+D+i</p>
+        <p>Desarrollado por <strong>H. Vladimir Martínez</strong> · 
+        <a href="mailto:hadervm@gmail.com" style="color: #2980B9; text-decoration: none;">hadervm@gmail.com</a>
+        </p>
+        <p>
+            <a href="#" style="color: #2980B9; text-decoration: none;">Políticas de Privacidad</a> |
+            <a href="#" style="color: #2980B9; text-decoration: none;">Soporte Técnico</a>
+        </p>
     </div>
     """,
     unsafe_allow_html=True,
